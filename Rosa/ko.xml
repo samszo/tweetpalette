@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding= "ISO-8859-1"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg width="900px" height="800px" xml:lang="fr"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink">
+
+     <title> OK </title>
+<g transform="translate(100,100)">
+
+    <rect stroke-width="3" stroke="black" fill="none" width="250"
+          height="100" y="150" x="150"
+		  
+             id="hint_button">
+			 
+    
+    </rect>
+    <text style="font-size:12;" alignment-baseline="middle"  y="190" x="170" > Je ne suis pas d'accord
+	avec vous</text>
+
+</g>
+</svg>
