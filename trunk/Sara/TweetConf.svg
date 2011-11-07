@@ -365,8 +365,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.82"
-     inkscape:cx="225.30158"
-     inkscape:cy="1026.6851"
+     inkscape:cx="35.057678"
+     inkscape:cy="589.15842"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -602,7 +602,7 @@
        sodipodi:cy="489.34909"
        sodipodi:cx="595.89038"
        id="path3137"
-       style="opacity:0.98000004;fill:#ca3bc9;fill-opacity:0.78306879;stroke:#000000;stroke-width:2.05511808;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="opacity:0.98000003999999996;fill:#ff0000;fill-opacity:0.67195767;stroke:#000000;stroke-width:2.05511808000000020;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        sodipodi:type="arc"
        onclick="alert(&quot;c'est exellent&quot;)" />
     <path
@@ -826,13 +826,13 @@
        onclick="alert(&quot;Merci ,lol&quot;)" />
     <path
        inkscape:connector-curvature="0"
-       style="opacity:0.98000004;fill:#ca3bc9;fill-opacity:1;stroke:#000000;stroke-width:1.51403213;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="opacity:0.98000003999999996;fill:#ca3bc9;fill-opacity:0.79894179;stroke:#000000;stroke-width:1.51403212999999990;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 294.0634,238.34516 c -7.39473,11.41102 -11.5625,24.26996 -11.5625,37.875 0,22.33043 11.20063,42.643 29.53125,57.84375 1.79494,-8.54197 2.75,-17.51394 2.75,-26.78125 l 0,-0.71875 c -0.14514,-26.2478 -7.96622,-50.14706 -20.71875,-68.21875 z"
        id="path4134"
        onclick="alert(&quot;Exellent, j'aime bien&quot;)" />
     <path
        inkscape:connector-curvature="0"
-       style="opacity:0.98000004;fill:#ca3bc9;fill-opacity:1;stroke:#000000;stroke-width:1.51403213;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="opacity:0.98000003999999996;fill:#ca3bc9;fill-opacity:0.67195767;stroke:#000000;stroke-width:1.51403212999999990;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 313.84465,323.03266 c -37.13914,10.20883 -63.125,33.64049 -63.125,60.90625 0,7.79454 2.13178,15.27098 6.03125,22.21875 29.68892,-10.98824 52.3103,-43.30524 57.09375,-83.125 z"
        id="path4153"
        onclick="alert(&quot;Exellent, lol&quot;)" />
