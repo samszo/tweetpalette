@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+		width="300" height="200" version="1.1" onload="init()">
+	<title>Pie2D</title>
+	<script type="text/javascript"><![CDATA[
+		var initfns = ['ttEvt','initDups'],
+			tips = {e1:'Oui, 30, 13.5%', e4:'Non, 50, 22%', e7:'Cool, 40, 18%', ea:'Ok1, 25, 11%', ed:'Ok2, 45, 20%', eg:'Ok3, 35, 15.5%'},
+			dups = {e1:'e2', e4:'e5', e7:'e8', ea:'eb', ed:'ee', eg:'eh'};
+		function getE(i){
+			return document.getElementById(i);
+		}
+		function setattr(i, a, v){
+			i.setAttributeNS(null, a, v);
+		}
+		function newel(e, a]]><![CDATA[){
+			var ns = 'http://www.w3.org/2000/svg',
+				ne = document.createElementNS(ns, e),
+				i;
+			for(i in a)
+				setattr(ne, i, a[i]);
+			return ne;
+		}
+		function showhide(e, h){
+			setattr(e, 'visibility', h?'visible':'hidden');
+		}
+		function tooltip(e, callback, on, param){
+			var tt = getE('tooltip'),
+				rect = getE('ttrect'),
+				shadow = getE('ttshdw'),
+				offset = 10,
+				x = e.clientX + offset,
+				y = e.clientY + offset,
+				inner,
+				brect,
+				bw,
+				bh,
+				sw,
+				sh,
+				de = document.documentElement;
+			if (on && !tt) {
+				tt = newel('g', {id:'tooltip', visibility:'visible'});
+				rect = newel('rect', {stroke:'black', 'stroke-width':'1px',
+					id:'ttrect', fill:'#ffffcc',
+					width:'10px', height:'10px',
+					rx:'0px', ry:'0px'});
+				shadow = newel('rect',{id: 'ttshdw', fill: 'rgba(0,0,0,0.3)',
+					x:'1.5px', y:'1.5px',
+					width:'10px', height:'10px',
+					rx:'0px', ry:'0px'});
+				tt.appendChild(shadow);
+				tt.appendChild(rect);
+				de.appendChild(tt);
+			}
+			tt && showhide(tt, on);
+			inner = callback(e, tt, on, param);
+			if (inner && on) {
+				brect = inner.getBBox();
+				bw = Math.ceil(brect.width + 6);
+				bh = Math.ceil(brect.height + 6);
+				setattr(rect, 'width', bw + 'px');
+				setattr(rect, 'height', bh + 'px');
+				if (shadow) {
+					setattr(shadow, 'width', (bw + 1) + 'px');
+					setattr(shadow, 'height', (bh + 1) + 'px');
+				}
+				if (de.width) {
+					sw = de.width.baseVal.value;
+					sh = de.height.baseVal.value;
+				} else {
+					sw = window.innerWidth;
+					sh = window.innerHeight;
+				}
+				if (bw + x > sw)
+					x = Math.max(e.clientX - offset - bw,0);
+				if (bh + y > sh)
+					y = Math.max(e.clientY - offset - bh,0);
+			}
+			on && setattr(tt, 'transform', 'translate('+x+' '+y+')');
+		}
+		function newtext(c){
+			return document.createTextNode(c);
+		}
+		function texttt(e, tt, on, t){
+			var ttt = getE('tooltiptext');
+			if (on) {
+				if (!ttt) {
+					ttt = newel('text', {id: 'tooltiptext', fill: 'black',
+						'font-size': '10px', 'font-family': 'sans-serif', 'font-weight': 'normal',
+						x:'3px', y:'13px'});
+					ttt.appendChild(newtext(t));
+					tt.appendChild(ttt);
+				} else {
+					ttt.firstChild.data = t;
+				}
+			}
+			ttt && showhide(ttt, on);
+			return ttt;
+		}
+		function finditem(e, list){
+			var l = e.target.correspondingUseElement || e.target, t;
+			while (!t && l.parentNode) {
+				t = l.id && list[l.id]
+				l = l.parentNode;
+			}
+			return t;
+		}
+		function init(){
+			if(!document.addEventListener || !initfns)
+				return;
+			for(var f in initfns)
+				eval(initfns[f] + '()');
+		}
+		function ttEvt(){
+			document.addEventListener && document.addEventListener('mousemove', function(e) {
+				var t = finditem(e, tips);
+				tooltip(e, texttt, t, t);}, false);
+		}
+		function duplicate(f, t){
+			var e = getE(f),
+				g,
+				a,
+				p = e && e.parentNode;
+			if (e) {
+				while (p.parentNode && (p.tagName != 'g' || !p.getAttributeNS(null,'clip-path'))) {
+					p.tagName == 'a' && (a = p);
+					p = p.parentNode;
+				}
+				g = e.cloneNode(true);
+				g.style.opacity = 0;
+				e.id = t;
+				if (a) {
+					a = a.cloneNode(false);
+					a.appendChild(g);
+					g = a;
+				}
+				p.appendChild(g);
+			}
+		}
+		function initDups() {
+			for(var d in dups)
+				duplicate(d, dups[d]);
+		}
+	// ]]></script>
+	<g clip-path="url(#canvas)">
+		<rect width="100%" height="100%" fill="#eee" stroke-width="0px"/>
+		<g stroke="#000" stroke-width="1px" stroke-linejoin="round">
+			<path fill="#ccf" id="e2" d="M150,100 L240,100 A90 90 0 0,1 210.22,166.88 z"/>
+			<path fill="#699" id="e5" d="M150,100 L210.22,166.88 A90 90 0 0,1 94.59,170.92 z"/>
+			<path fill="#93c" id="e8" d="M150,100 L94.59,170.92 A90 90 0 0,1 61.967,81.288 z"/>
+			<path fill="#996" id="eb" d="M150,100 L61.967,81.288 A90 90 0 0,1 94.59,29.079 z"/>
+			<path fill="#f39" id="ee" d="M150,100 L94.59,29.079 A90 90 0 0,1 200.33,25.387 z"/>
+			<path fill="#0f3" id="eh" d="M150,100 L200.33,25.387 A90 90 0 0,1 240,100 z"/>
+		</g>
+		<g text-anchor="middle" font-size="11px" font-family="Georgia" font-weight="bold">
+			<text id="e3" x="211.66" y="130.75" fill="#000">
+				<tspan x="211.66" dy="-5.5">Oui</tspan>
+				<tspan x="211.66" dy="11">30</tspan>
+			</text>
+			<text id="e6" x="152.36" y="170.76" fill="#000">
+				<tspan x="152.36" dy="-5.5">Non</tspan>
+				<tspan x="152.36" dy="11">50</tspan>
+			</text>
+			<text id="e9" x="86.571" y="126.39" fill="#000">
+				<tspan x="86.571" dy="-5.5">Cool</tspan>
+				<tspan x="86.571" dy="11">40</tspan>
+			</text>
+			<text id="ec" x="92.757" y="67.53" fill="#000">
+				<tspan x="92.757" dy="-5.5">Ok1</tspan>
+				<tspan x="92.757" dy="11">25</tspan>
+			</text>
+			<text id="ef" x="147.64" y="35.841" fill="#000">
+				<tspan x="147.64" dy="-5.5">Ok2</tspan>
+				<tspan x="147.64" dy="11">45</tspan>
+			</text>
+			<text id="ei" x="209.6" y="71.611" fill="#000">
+				<tspan x="209.6" dy="-5.5">Ok3</tspan>
+				<tspan x="209.6" dy="11">35</tspan>
+			</text>
+		</g>
+		<path fill="#ccf" id="e1" d="M150,100 L240,100 A90 90 0 0,1 210.22,166.88 z" style="opacity: 0; "/>
+		<path fill="#699" id="e4" d="M150,100 L210.22,166.88 A90 90 0 0,1 94.59,170.92 z" style="opacity: 0; "/>
+		<path fill="#93c" id="e7" d="M150,100 L94.59,170.92 A90 90 0 0,1 61.967,81.288 z" style="opacity: 0; "/>
+		<path fill="#996" id="ea" d="M150,100 L61.967,81.288 A90 90 0 0,1 94.59,29.079 z" style="opacity: 0; "/>
+		<path fill="#f39" id="ed" d="M150,100 L94.59,29.079 A90 90 0 0,1 200.33,25.387 z" style="opacity: 0; "/>
+		<path fill="#0f3" id="eg" d="M150,100 L200.33,25.387 A90 90 0 0,1 240,100 z" style="opacity: 0; "/>
+	</g>
+</svg>
