@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding= "ISO-8859-1"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg width="900px" height="800px" xml:lang="fr"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink">
+
+     <title> Gestion de commentaire dans une conférence Twitter</title>
+
+<!-- le premier  rectangle -->
+
+ <g transform="translate(100,100)">
+    
+         <rect stroke-width="2" stroke="navy" fill="azure" width="80"
+             height="50" y="80" x="170"
+             id="hint_buttonok" onclick="alert(&quot;je suis tout à fait d'accord avec vous&quot;)">
+	         <animateColor fill="freeze" dur="0.1s" to="aqua" from="azure"
+             attributeName="fill" begin="mouseover"/>
+             <animateColor fill="freeze" dur="0.1s" to="azure" from="aqua"
+             attributeName="fill" begin="mouseout"/>
+         </rect>
+     
+     <text style="font-size:12;" alignment-baseline="middle"  y="110" x="195" >OK</text>
+ </g>
+ 
+ <!-- le commentaire pour OK -->
+<g transform="translate(170,140)" style="display:none">
+
+  <ellipse stroke-width="1" stroke="black" fill="none" ry="0.8cm" rx="3cm"/>
+    <text style="font-size:12;" alignment-baseline="middle" x="-2.9cm" y="0.15cm">
+    Je suis tout à fait d'accord
+	avec vous</text>
+
+    <animate fill="freeze" dur="0.1s" begin="hint_buttonok.mouseover"
+
+      from="none" to="block" attributeName="display"/>
+
+    <animate fill="freeze" dur="0.1s" begin="hint_buttonok.mouseout"
+
+      from="block" to="none" attributeName="display"/>
+</g>
+<!--  le deuxieme rectangle -->
+
+ <g transform="translate(100,100)">
+   
+         <rect stroke-width="2" stroke="navy" fill="azure" width="80"
+             height="50" y="80" x="250"
+             id="hint_buttonko" onclick="alert(&quot;je ne suis pas d'accord avec vous&quot;)">
+	         <animateColor fill="freeze" dur="0.1s" to="aqua" from="azure"
+             attributeName="fill" begin="mouseover"/>
+             <animateColor fill="freeze" dur="0.1s" to="azure" from="aqua"
+             attributeName="fill" begin="mouseout"/>
+         </rect>
+   
+     <text style="font-size:12;" alignment-baseline="middle"  y="110" x="280" >KO</text>
+ </g>
+
+<!-- le commentaire pour KO -->
+<g transform="translate(400,140)" style="display:none">
+
+  <ellipse stroke-width="1" stroke="black" fill="none" ry="0.8cm" rx="3cm"/>
+    <text style="font-size:12;" alignment-baseline="middle" x="-2.9cm" y="0.15cm" >
+    Je ne suis pas d'accord
+	avec vous</text>
+
+    <animate fill="freeze" dur="0.1s" begin="hint_buttonko.mouseover"
+
+      from="none" to="block" attributeName="display"/>
+
+    <animate fill="freeze" dur="0.1s" begin="hint_buttonko.mouseout"
+
+      from="block" to="none" attributeName="display"/>
+</g>
+
+<!--  le troisieme rectangle -->
+
+ <g transform="translate(100,100)">
+    
+         <rect stroke-width="2" stroke="navy" fill="azure" width="80"
+             height="50" y="80" x="330"
+             id="hint_buttonsa" onclick="alert(&quot;sans opinion&quot;)">
+	         <animateColor fill="freeze" dur="0.1s" to="aqua" from="azure"
+             attributeName="fill" begin="mouseover"/>
+             <animateColor fill="freeze" dur="0.1s" to="azure" from="aqua"
+             attributeName="fill" begin="mouseout"/>
+         </rect>
+    
+     <text style="font-size:12;" alignment-baseline="middle"  y="110" x="350" >SO</text>
+ </g>
+
+<!-- le commentaire pour SO -->
+<g transform="translate(580,140)" style="display:none">
+
+  <ellipse stroke-width="1" stroke="black" fill="none" ry="0.8cm" rx="1.5cm"/>
+    <text style="font-size:12;" alignment-baseline="middle" x="-1cm" y="0.15cm">
+   Sans opinion</text>
+
+    <animate fill="freeze" dur="0.1s" begin="hint_buttonsa.mouseover"
+
+      from="none" to="block" attributeName="display"/>
+
+    <animate fill="freeze" dur="0.1s" begin="hint_buttonsa.mouseout"
+
+      from="block" to="none" attributeName="display"/>
+</g>
+ 
+<!-- le quatrième  rectangle -->
+
+ <g transform="translate(100,100)">
+   
+         <rect stroke-width="2" stroke="navy" fill="azure" width="80"
+             height="50" y="130" x="170"
+             id="hint_buttonQ" onclick="alert(&quot;J'ai une question à vous poser&quot;)">
+	         <animateColor fill="freeze" dur="0.1s" to="aqua" from="azure"
+             attributeName="fill" begin="mouseover"/>
+             <animateColor fill="freeze" dur="0.1s" to="azure" from="aqua"
+             attributeName="fill" begin="mouseout"/>
+         </rect>
+  
+     <text style="font-size:16;" alignment-baseline="middle"  y="160" x="200" >?</text>
+ </g>
+ 
+<!-- le commentaire pour question -->
+<g transform="translate(170,310)" style="display:none">
+
+  <ellipse stroke-width="1" stroke="black" fill="none" ry="0.8cm" rx="3cm"/>
+    <text style="font-size:12;" alignment-baseline="middle" x="-2.9cm" y="0.15cm">
+    J'ai une question à vous poser??</text>
+
+    <animate fill="freeze" dur="0.1s" begin="hint_buttonQ.mouseover"
+
+      from="none" to="block" attributeName="display"/>
+
+    <animate fill="freeze" dur="0.1s" begin="hint_buttonQ.mouseout"
+
+      from="block" to="none" attributeName="display"/>
+</g>
+<!-- le cinquiéme  rectangle -->
+
+ <g transform="translate(100,100)">
+   
+         <rect stroke-width="2" stroke="navy" fill="azure" width="80"
+             height="50" y="130" x="250"
+             id="hint_buttonet" onclick="alert(&quot;je suis étonné&quot;)">  
+	         <animateColor fill="freeze" dur="0.1s" to="aqua" from="azure"
+             attributeName="fill" begin="mouseover"/>
+             <animateColor fill="freeze" dur="0.1s" to="azure" from="aqua"
+             attributeName="fill" begin="mouseout"/>
+         </rect>
+   
+	  <image x="270" y="140" width="0.8cm" height="0.8cm" xlink:href="etone.jpg"/> 
+ 
+ </g>
+ 
+<!-- le commentaire pour étonné!!! -->
+<g transform="translate(360,330)" style="display:none">
+
+  <ellipse stroke-width="1" stroke="black" fill="none" ry="0.8cm" rx="2.2cm"/>
+
+    <text style="font-size:12;" alignment-baseline="middle" x="-1.9cm" y="0.15cm">
+    je suis vraiment étonné!!!</text>
+
+    <animate fill="freeze" dur="0.1s" begin="hint_buttonet.mouseover"
+
+      from="none" to="block" attributeName="display"/>
+
+    <animate fill="freeze" dur="0.1s" begin="hint_buttonet.mouseout"
+
+      from="block" to="none" attributeName="display"/>
+</g>
+<!-- le cinquiéme  rectangle -->
+
+ <g transform="translate(100,100)">
+    
+         <rect stroke-width="2" stroke="navy" fill="azure" width="80"
+             height="50" y="130" x="330"
+             id="hint_buttonpr" onclick="alert(&quot;je suis perdu&quot;)">
+	         <animateColor fill="freeze" dur="0.1s" to="aqua" from="azure"
+             attributeName="fill" begin="mouseover"/>
+             <animateColor fill="freeze" dur="0.1s" to="azure" from="aqua"
+             attributeName="fill" begin="mouseout"/>
+         </rect>
+  
+	 <image x="350" y="130" width="1cm" height="1cm" xlink:href="perdu.jpg"/> 
+    
+ </g>
+ <!-- le commentaire pour perdu??!! -->
+<g transform="translate(580,330)" style="display:none">
+
+  <ellipse stroke-width="1" stroke="black" fill="none" ry="0.8cm" rx="1.6cm"/>
+    <text style="font-size:12;" alignment-baseline="middle" x="-1.4cm" y="0.15cm">
+    je suis perdu??!!</text>
+
+    <animate fill="freeze" dur="0.1s" begin="hint_buttonpr.mouseover"
+
+      from="none" to="block" attributeName="display"/>
+
+    <animate fill="freeze" dur="0.1s" begin="hint_buttonpr.mouseout"
+
+      from="block" to="none" attributeName="display"/>
+</g>
+
+ </svg>
+ 
