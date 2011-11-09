@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+        <svg width="800px" height="600px" xml:lang="fr"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+
+                <title> Tweeter une conference </title>
+                
+
+                <!--  rectangle1 -->
+                
+                <rect id="rect1"  x="450" y="200" width="200" height="60"
+				style="fill:cornsilk;stroke:cornflowerblue;stroke-width:1px;"
+				onclick="alert(&quot;je suis tout a fait d'accord &quot;)">                     
+                </rect>
+                        <text x="530" y="240"> OK </text>
+        
+                
+                <!--  rectangle2 -->
+                <rect x="650" y="200" width="200" height="60"
+				style="fill:cornsilk;stroke:cornflowerblue;stroke-width:1px;" 
+				onclick="alert(&quot;je ne suis pas d'accord &quot;)"/>
+                        <text x="730" y="240"> KO </text>
+                
+                <!--  rectangle3 -->
+                <rect x="450" y="260" width="200" height="60" 
+				style="fill:cornsilk;stroke:cornflowerblue;stroke-width:1px;"
+				onclick="alert(&quot;je ne sais pas quoi dire&quot;)"/>
+                        <text x="530" y="300"> SO </text>
+                
+                <!--  rectangle4 -->
+                <rect x="650" y="260" width="200" height="60"
+				style="fill:cornsilk;stroke:cornflowerblue;stroke-width:1px;"
+				onclick="alert(&quot;J'ai une question  &quot;)"/>
+                        <text x="740" y="300"> ? </text>
+                
+                
+                <!--  ellipse1 -->
+                <ellipse cx="650" cy="370" rx="190" ry="65"
+				style="fill:cornsilk;stroke:cornflowerblue;stroke-width:1px;"
+				onclick="alert(&quot;Je ne suis pas vraiment convincu &quot;)" />
+                        <text x="620" y="370"> Peut etre </text>
+                
+
+        </svg>
