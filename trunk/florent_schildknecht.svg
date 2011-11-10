@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="800px"
+	 height="600px" viewBox="0 0 800 600" enable-background="new 0 0 800 600" xml:space="preserve">
+<g id="Calque_2">
+	<rect fill="#FDF1C1" width="800" height="600"/>
+</g>
+<g id="Calque_1">
+	<rect x="147.152" y="18.492" fill="none" width="530.137" height="36.985"/>
+	<text transform="matrix(1 0 0 1 204.5649 39.5161)" fill="#0A0819" font-family="'Nyala-Regular'" font-size="32">Conférence intéractive avec Twitter</text>
+	<circle stroke="#000000" stroke-miterlimit="10" cx="117.949" cy="150.507" r="62.657"/>
+	<path fill="#124374" stroke="#000000" stroke-miterlimit="10" d="M243.262,213.164c34.606,0,62.657,28.052,62.657,62.656
+		c0,34.605-28.051,62.656-62.657,62.656c-34.602,0-62.656-28.051-62.656-62.656C180.606,241.216,208.66,213.164,243.262,213.164z"/>
+	<circle fill="#455073" stroke="#000000" stroke-miterlimit="10" cx="117.948" cy="275.82" r="62.656"/>
+	<path fill="#4C4E47" stroke="#000000" stroke-miterlimit="10" d="M243.262,87.851c34.606,0,62.657,28.051,62.657,62.655
+		c0,34.604-28.051,62.657-62.657,62.657c-34.602,0-62.656-28.053-62.656-62.657C180.606,115.902,208.66,87.851,243.262,87.851z"/>
+	<circle fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="180.606" cy="213.162" r="62.656"/>
+	<rect x="89.896" y="112.164" fill="none" width="28.054" height="38.342"/>
+	
+		<text transform="matrix(1 0 0 1 89.895 145.1504)" stroke="#FFFFFF" stroke-miterlimit="10" font-family="'MyriadPro-Regular'" font-size="46.4594">1</text>
+	<rect x="243.262" y="112.164" fill="none" width="28.058" height="38.342"/>
+	
+		<text transform="matrix(1 0 0 1 243.2622 145.1504)" stroke="#FFFFFF" stroke-miterlimit="10" font-family="'MyriadPro-Regular'" font-size="46.4594">2</text>
+	<rect x="89.896" y="275.82" fill="none" width="28.054" height="38.34"/>
+	
+		<text transform="matrix(1 0 0 1 89.895 308.8027)" stroke="#FFFFFF" stroke-miterlimit="10" font-family="'MyriadPro-Regular'" font-size="46.4594">3</text>
+	<rect x="243.262" y="275.82" fill="none" width="28.054" height="38.34"/>
+	
+		<text transform="matrix(1 0 0 1 243.2622 308.8027)" stroke="#FFFFFF" stroke-miterlimit="10" font-family="'MyriadPro-Regular'" font-size="46.4594">4</text>
+	
+		<text transform="matrix(1 0 0 1 169.3823 231.3955)" stroke="#FFFFFF" stroke-miterlimit="10" font-family="'MyriadPro-Regular'" font-size="46.4594">S</text>
+	<rect x="355.536" y="198.014" fill="none" width="434.392" height="140.461"/>
+	<text transform="matrix(0.9908 0 0 1 355.5361 215.0532)" font-family="'Nyala-Regular'" font-size="24">S - Sujet </text>
+	<text transform="matrix(0.9908 0 0 1 355.5361 243.855)" font-family="'Nyala-Regular'" font-size="24">1 - Décevant</text>
+	<text transform="matrix(0.9908 0 0 1 355.5361 272.6538)" font-family="'Nyala-Regular'" font-size="24">2 - Lassant (sujet intéressant quand même)</text>
+	<text transform="matrix(0.9908 0 0 1 355.5361 301.4531)" font-family="'Nyala-Regular'" font-size="24">3 - Intéressant (mérite approfondissement)</text>
+	<text transform="matrix(0.9908 0 0 1 355.5361 330.2539)" font-family="'Nyala-Regular'" font-size="24">4- Captivant</text>
+	<rect x="103.923" y="569.66" fill="none" width="564.383" height="30.34"/>
+	<text transform="matrix(1 0 0 1 239.623 590.6836)" font-family="'Nyala-Regular'" font-size="32">Florent SCHILDKNECHT</text>
+</g>
+</svg>
