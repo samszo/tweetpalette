@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <text font-size="36" font-family="'Arial'" fill="#000000" transform="matrix(1,0,0,1,400.0,50.0) ">Htag conférence paris8</text>
+  <circle r="150" cy="238.457" cx="523.645" stroke-miterlimit="10" stroke="#3FA9F5" fill="none"/>
+  <circle r="100" cy="393.457" cx="416.645" stroke-miterlimit="10" stroke="#7AC943" fill="none"/>
+  <circle r="200" cy="240.457" cx="249.645" stroke-miterlimit="10" stroke="#FF931E" fill="none"/>
+  <text font-size="36" font-family="'Arial'" fill="#FF931E" opacity="0.5" transform="matrix(1,0,0,1,108.7715,139.3306) ">down</text>
+  <text font-size="36" font-family="'Arial'" fill="#7AC943" opacity="0.5" transform="matrix(1,0,0,1,381.3589,449.9883) ">neutral</text>
+  <text fill="black" font-size="36" font-family="'Arial'" transform="matrix(1,0,0,1,110.7715,138.3306) ">down</text>
+  <text font-size="36" font-family="'Arial'" fill="#3FA9F5" opacity="0.5" transform="matrix(1,0,0,1,589.4463,314.5996) ">up</text>
+  <text fill="black" font-size="36" font-family="'Arial'" transform="matrix(1,0,0,1,591.4463,313.5996) ">up</text>
+  <text fill="black" font-size="36" font-family="'Arial'" transform="matrix(1,0,0,1,383.3584,448.9883) ">neutral</text>
+  <text font-size="36" font-family="'Arial'" fill="#999999" transform="matrix(1,0,0,1,408.5,324.5) ">#</text>
+  <text font-size="36" font-family="'Arial'" transform="matrix(1,0,0,1,410.5,323.5) ">#</text>
+  <text x="-372" y="130" id="svg_1" fill="black" font-size="25" font-family="'Arial'" transform="matrix(1,0,0,1,383.3584,448.9883) ">neutral: sans avis (neutre)</text>
+  <text x="-577" y="236" id="svg_2" fill="black" font-size="25" font-family="'Arial'" transform="matrix(1,0,0,1,591.4463,313.5996) ">up: pour</text>
+  <text x="-99" y="383" id="svg_3" fill="black" font-size="25" font-family="'Arial'" transform="matrix(1,0,0,1,110.7715,138.3306) ">down: contre</text>
+</svg>
