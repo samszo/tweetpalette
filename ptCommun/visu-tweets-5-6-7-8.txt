@@ -1,0 +1,126 @@
+5. Ajout d'une échelle linéaire pour les barres :
+
+var echelle = d3.scale.linear()
+    .domain([0, d3.max(hashtagslist, function(d){ return d.value })])
+    .range([0, 800])
+
+Utilisation de l'échelle dans l'affichage en div -> changer la déf. du style
+
+    .style("width", function(d) { return echelle(d.value) + "px"; })
+
+6. Passage à des cercles / svg :
+
+var chart = d3.select("#visu")
+    .append("svg:svg")
+    .attr("width",1000)
+    .attr("height",600)
+   
+var groups = chart.selectAll("g")
+    .data(hashtags)
+    .enter().append("svg:g")
+    .attr("transform", function(d, i) {
+        /* Définir la position de chacun des groupes cercle + texte */
+        return "translate(" + (100 + 200 * (i % 5)) + "," + (100 + 200 * Math.floor(i / 5)) + ")"
+    })
+groups.append("svg:circle")
+    .attr("cx", 0)
+    .attr("cy", 0)
+    .attr("fill", "none")
+    .attr("stroke","#000000")
+    .attr("r", function(d) {
+        return echelle(d.value);
+    });
+groups.append("svg:text")
+    .attr("x", 0)
+    .attr("y", 0)
+    .attr("text-anchor", "middle")
+    .text(function(d) {
+        return d.key + ' (' + d.value + 'x)'
+    });
+
+Attention !!! Une échelle linéaire n'est pas adaptée, puisque la superficie d'un cercle est proportionnelle au carré du rayon
+
+var echelle = d3.scale.pow()
+    .exponent(.5)
+    .domain([0, d3.max(hashtagslist, function(d){ return d.value })])
+    .range([0, 100])
+
+6. Ajout d'une échelle de couleurs :
+
+var color = d3.scale.category20();
+
+Puis changer l'attribut fill du circle
+
+    .attr("fill", function(d, i) { return color(i) })
+
+7. Ajout du layout bulles:
+
+On définit d'abord le layout :
+
+var bubbles = d3.layout.pack()
+    .size([1000,600])
+
+On plaque ensuite le layout sur nos données, cela y associe des propriétés supplémentaires à chaque élément du tableau de données :
+remplacer .data(hashtags) par :
+
+    .data(bubbles.nodes({ "children" : hashtags }).filter(function(d) { return !d.children }))
+
+Utiliser la position définie par le layout pour le groupe <svg:g> :
+
+    .attr("transform", function(d) {
+        return "translate(" + d.x + "," + d.y + ")"
+     })
+
+Utiliser la taille définie par le layout pour le cercle <svg:circle>:
+
+    .attr("r", function(d) {
+        return d.r;
+    });
+
+8. Remplacer la fonction qui récupère une page de tweets par un système de callbacks qui met en mémoire chaque page l'une à la suite de l'autre :
+
+function getTweets(options) {
+   
+    function getTweetUrl(url) {
+        $.getJSON(url, function(data) {
+            options.tweets = options.tweets.concat(data.results);
+            options.currentPage = data.page;
+            if (options.cbData) {
+                options.cbData();
+            }
+            if (data.next_page && data.page < options.pages) {
+                getTweetUrl(baseurl + data.next_page + suffix);
+            } else {
+                options.tweets.sort(function(a,b) {
+                   return a.id - b.id;
+                });
+                if (options.cbEnd) {
+                    options.cbEnd();
+                }
+            }
+        });
+    }
+   
+    options.tweets = [];
+    options.pages || (options.pages = 1);
+    options.currentPage = 0;
+    var baseurl = "http://search.twitter.com/search.json",
+        suffix = (options.since_id ? "&since_id=" + options.since_id : '' ) + "&callback=?",
+        jsonurl = baseurl + "?q=" + encodeURIComponent(options.keyword)+ "&rpp=100"
+            + (options.lang ? "&lang=" + options.lang : '' ) + suffix;
+    getTweetUrl(jsonurl);
+}
+
+$(document).ready(function() {
+    getTweets({
+        "keyword" : "gobelins",
+        "pages" : 1,
+        "cbData" : function() {
+            console.log("Chargement de la page " + this.currentPage + "/" + this.pages);
+        },
+        "cbEnd" : function() {
+           console.log(this.tweets.length + " tweets correspondant au mot-clé " + this.keyword + " sont chargés");
+           ... traitement de la visu ici ...
+        }
+    });
+});
