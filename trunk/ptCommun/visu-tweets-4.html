@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Visu de tweets</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+        <script type="text/javascript" src="d3.min.js"></script>
+        <script type="text/javascript">
+            var requete = "Gobelins";
+            
+            /*** ETAPE 4 : Visu simple avec D3 ***/
+            
+            $(document).ready(function() {
+                
+                
+                $.getJSON("http://search.twitter.com/search.json?q="+encodeURIComponent(requete)+"&rpp=100&callback=?",
+                function(data) {
+                    var hashtags = {};
+                    
+                    for (var i in data.results) {
+                        var mots = data.results[i].text.split(' ');
+                        for (var j in mots) {
+                            var mot = mots[j].toLowerCase();
+                            if (mot[0] == "#") {
+                                if (hashtags[mot]) {
+                                    hashtags[mot]++;
+                                } else {
+                                    hashtags[mot] = 1;
+                                }
+                            }
+                        }
+                    }
+                    
+                    /* Transforme le tableau associatif en tableau simple */
+                    /* { "hashtag1": 100, "hashtag2": 10 }
+                     * => [ { key: "hashtag1", value : 100 }, { key: "hashtag2", value : 10 } ]
+                     * */
+                    hashtags = d3.entries(hashtags);
+                    
+                    console.log(hashtags);
+                    
+                    var chart = d3.select("#visu");
+                    
+                    chart.selectAll("div")
+                        .data(hashtags) /* Associe les div aux données */
+                        .enter() /* Crée une boucle qui permet de rajouter les div manquants */
+                        .append("div") /* Rajoute les div nécessaires */
+                        .attr("class", "barre")
+                        .style("width", function(d) {
+                            return ( 50 * d.value ) + "px";
+                        })
+                        .text(function(d) {
+                            return d.key + ' (' + d.value + 'x)'
+                        });
+                    
+                })
+                
+            });
+            
+        </script>
+        <style type="text/css">
+            .barre {
+                border: 1px solid #000000; padding: 2px 0;
+            }
+        </style>
+    </head>
+    <body>
+       <div id="visu">
+                
+       </div>
+    </body>
+</html>
