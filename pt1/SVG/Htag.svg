@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="800px" height="600px" viewBox="0 0 800 600" enable-background="new 0 0 800 600" xml:space="preserve">
+<script  xlink:href="twitter.js"></script>
+<rect width="800" height="600"/>
+<rect x="96" y="574.982" fill="none" width="227.167" height="10.572"/>
+<text transform="matrix(1 0 0 1 95.9995 583.502)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">points de vue et design d’information</text>
+<rect x="300.476" y="575.245" fill="none" width="188.524" height="15.492"/>
+<text transform="matrix(1 0 0 1 300.4756 583.7646)" fill="#3D3D3D" font-family="'Helvetica-Bold'" font-size="12">MARINE SERGENT  07/11/2011</text>
+<image overflow="visible" enable-background="new    " width="109" height="22" xlink:href="EB9B2DBA.jpeg"  transform="matrix(0.6735 0 0 0.6179 16.5005 572.9629)">
+</image>
+<ellipse onclick="ecriTweet('#GOBCprat');" opacity="0.8" fill="#EFF0F4" enable-background="new    " cx="405" cy="195.529" rx="88.75" ry="86.531"/>
+<ellipse onclick="ecriTweet('#GOBCprat #DEMI');" transform="matrix(0.198 -0.9802 0.9802 0.198 -43.1263 656.0397)" opacity="0.8" fill="#A6CFE3" enable-background="new    " cx="379.338" cy="354.374" rx="51.999" ry="53.333"/>
+<ellipse onclick="ecriTweet('#GOBCprat #ZERO');" transform="matrix(0.198 -0.9802 0.9802 0.198 284.8167 542.7657)" opacity="0.8" fill="#FFCFE3" enable-background="new    " cx="474.088" cy="97.333" rx="17.33" ry="17.774"/>
+<ellipse onclick="ecriTweet('#GOBCprat #ANTI');" transform="matrix(0.6272 -0.7789 0.7789 0.6272 -65.6742 262.388)" opacity="0.8" fill="#8EC1DA" enable-background="new    " cx="241.246" cy="199.795" rx="52.001" ry="53.335"/>
+<ellipse onclick="ecriTweet('#GOBCprat #ANTI #COS');" transform="matrix(0.6272 -0.7789 0.7789 0.6272 -47.394 150.1075)" opacity="0.8" fill="#C79CDA" enable-background="new    " cx="133.1" cy="124.56" rx="31.281" ry="32.084"/>
+<ellipse onclick="ecriTweet('#GOBCprat #ANTI #COS #-');" transform="matrix(0.6272 -0.7789 0.7789 0.6272 -14.8775 123.5275)" opacity="0.8" fill="#EFF0F4" enable-background="new    " cx="121.596" cy="77.304" rx="12.991" ry="13.324"/>
+<ellipse onclick="ecriTweet('#GOBCprat #ANTI #COS #--');" transform="matrix(0.6272 -0.7789 0.7789 0.6272 -60.202 102.5837)" opacity="0.8" fill="#EFF0F4" enable-background="new    " cx="77.054" cy="114.177" rx="12.99" ry="13.323"/>
+<ellipse onclick="ecriTweet('#GOBCprat #ANTI #INDIV');" transform="matrix(0.6272 -0.7789 0.7789 0.6272 -130.4319 174.3152)" opacity="0.8" fill="#8E69DA" enable-background="new    " cx="116.868" cy="223.403" rx="31.282" ry="32.084"/>
+<ellipse onclick="ecriTweet('#GOBCprat #ANTI #TMPS');" transform="matrix(0.6272 -0.7789 0.7789 0.6272 -150.3419 258.7717)" opacity="0.8" fill="#7830DA" enable-background="new    " cx="195.135" cy="286.429" rx="31.281" ry="32.084"/>
+<ellipse onclick="ecriTweet('#GOBCprat #DEMI #COS');" transform="matrix(0.6178 -0.7863 0.7863 0.6178 -183.6277 367.6312)" opacity="0.8" fill="#75FFFF" enable-background="new    " cx="286.377" cy="372.718" rx="31.279" ry="32.082"/>
+<ellipse onclick="ecriTweet('#GOBCprat #DEMI #INDIV');" transform="matrix(0.1981 -0.9802 0.9802 0.1981 -163.0471 701.5781)" opacity="0.8" fill="#3DCFFF" enable-background="new    " cx="347.249" cy="450.436" rx="31.28" ry="32.084"/>
+<path onclick="ecriTweet('#GOBCprat #ANTI #TMPS');" opacity="0.8" fill="#00CFFF" enable-background="new    " d="M500.109,385.743
+	c-1.007,17.246-16.159,30.391-33.853,29.358c-17.688-1.031-31.211-15.85-30.205-33.096s16.159-30.393,33.849-29.361
+	C487.593,353.678,501.115,368.496,500.109,385.743z"/>
+<ellipse onclick="ecriTweet('#GOBCprat #PRO #TMPS');" transform="matrix(0.8966 -0.4428 0.4428 0.8966 3.9301 300.219)" fill="#96DE33" cx="644.911" cy="141.693" rx="31.28" ry="32.083"/>
+<ellipse onclick="ecriTweet('#GOBCprat #PRO #INDIV');" transform="matrix(0.8966 -0.4428 0.4428 0.8966 -27.8088 314.5871)" fill="#87DE78" cx="659.812" cy="216.849" rx="31.279" ry="32.083"/>
+<ellipse onclick="ecriTweet('#GOBCprat #PRO #COS');" transform="matrix(0.8966 -0.4428 0.4428 0.8966 -67.7759 303.8066)" fill="#B0DEA8" cx="616.72" cy="297.047" rx="31.28" ry="32.083"/>
+<ellipse onclick="ecriTweet('#GOBCprat #PRO');" transform="matrix(0.8966 -0.4428 0.4428 0.8966 -28.0892 272.1282)" fill="#C0DEED" cx="568.742" cy="196.22" rx="51.999" ry="53.332"/>
+<ellipse onclick="ecriTweet('#Gobelins');" opacity="0.05" fill="#EFF0F4" enable-background="new    " cx="400" cy="-85" rx="169.232" ry="165"/>
+<rect x="351.934" y="191.658" fill="none" width="107.388" height="17.645"/>
+<text transform="matrix(1 0 0 1 351.9341 205.8584)" fill="#FFFFFF" font-family="'ArialMT'" font-size="20">#GOBCprat</text>
+<rect x="219.499" y="196.48" fill="none" width="83.335" height="17.645"/>
+<text transform="matrix(1 0 0 1 219.4985 209.2607)" fill="#FFFFFF" font-family="'ArialMT'" font-size="18">#ANTI</text>
+<rect x="175.381" y="282.06" fill="none" width="46.023" height="17.645"/>
+<text transform="matrix(1 0 0 1 175.3813 292.71)" fill="#FFFFFF" font-family="'ArialMT'" font-size="15">#TMPS</text>
+<rect x="95.858" y="217.122" fill="none" width="46.023" height="17.645"/>
+<text transform="matrix(1 0 0 1 95.8579 227.7715)" fill="#FFFFFF" font-family="'ArialMT'" font-size="15">#INDIV</text>
+<rect x="328.027" y="445.338" fill="none" width="46.022" height="17.646"/>
+<text transform="matrix(1 0 0 1 328.0273 455.9873)" fill="#FFFFFF" font-family="'ArialMT'" font-size="15">#INDIV</text>
+<rect x="606.132" y="503.051" fill="none" width="221.803" height="17.646"/>
+<text transform="matrix(1 0 0 1 606.1318 513.7002)" fill="#FFFFFF" font-family="'ArialMT'" font-size="15">#INDIV : </text>
+<text transform="matrix(1 0 0 1 658.4512 513.7002)" fill="#FFFFFF" font-family="'ArialMT'" font-size="9">conférencier, personnes citées</text>
+<rect x="639.822" y="211.118" fill="none" width="46.022" height="17.645"/>
+<text transform="matrix(1 0 0 1 639.8223 221.7686)" fill="#FFFFFF" font-family="'ArialMT'" font-size="15">#INDIV</text>
+<rect x="447.727" y="377.492" fill="none" width="46.023" height="17.645"/>
+<text transform="matrix(1 0 0 1 447.7266 388.1416)" fill="#FFFFFF" font-family="'ArialMT'" font-size="15">#TMPS</text>
+<rect x="605.378" y="523.987" fill="none" width="222.557" height="19.258"/>
+<text transform="matrix(1 0 0 1 605.3779 534.6367)" fill="#FFFFFF" font-family="'ArialMT'" font-size="15">#TMPS : </text>
+<text transform="matrix(1 0 0 1 657.1875 534.6367)" fill="#FFFFFF" font-family="'ArialMT'" font-size="9">conférence, actualité du propos</text>
+<rect x="625.119" y="134.326" fill="none" width="46.022" height="17.645"/>
+<text transform="matrix(1 0 0 1 625.1191 144.9756)" fill="#FFFFFF" font-family="'ArialMT'" font-size="15">#TMPS</text>
+<rect x="551.668" y="190.962" fill="none" width="83.336" height="17.645"/>
+<text transform="matrix(1 0 0 1 551.668 203.7432)" fill="#FFFFFF" font-family="'ArialMT'" font-size="18">#PRO</text>
+<rect x="467.99" y="91.434" fill="none" width="58.844" height="14.857"/>
+<text transform="matrix(1 0 0 1 467.9902 104.2148)" fill="#FFFFFF" font-family="'ArialMT'" font-size="18">#zero</text>
+<rect x="355.651" y="349.338" fill="none" width="160.696" height="14.857"/>
+<text transform="matrix(1 0 0 1 355.6514 362.1191)" fill="#FFFFFF" font-family="'ArialMT'" font-size="18">#DEMI</text>
+<rect x="358.082" y="17.276" fill="none" width="91.836" height="17.645"/>
+<text transform="matrix(1 0 0 1 358.082 31.4775)" fill="#FFFFFF" font-family="'ArialMT'" font-size="20">#gobelin</text>
+<line fill="none" stroke="#FFFFFF" x1="154.856" y1="146.697" x2="198.393" y2="171.177"/>
+<line fill="none" stroke="#FFFFFF" x1="148.608" y1="222.94" x2="190.029" y2="211.303"/>
+<line fill="none" stroke="#FFFFFF" x1="214.75" y1="262.05" x2="223.866" y2="250.73"/>
+<g>
+	<ellipse opacity="0.8" fill="#FFFFFF" enable-background="new    " cx="554.604" cy="567.109" rx="11.492" ry="11.205"/>
+	
+		<ellipse transform="matrix(-0.1978 -0.9802 0.9802 -0.1978 133.8082 1258.7572)" opacity="0.8" fill="#FFFFFF" enable-background="new    " cx="581.953" cy="574.628" rx="1.975" ry="2.025"/>
+	<ellipse opacity="0.8" fill="#FFFFFF" enable-background="new    " cx="572.586" cy="572.646" rx="4.191" ry="4.086"/>
+	<ellipse fill="#FFFFFF" cx="519.061" cy="557.627" rx="22.309" ry="21.75"/>
+	<path fill="none" stroke="#FFFFFF" d="M584,586.727"/>
+	<polyline fill="none" stroke="#FFFFFF" points="496.753,581.604 496.753,584.667 584,584.667 584,581.604 	"/>
+	<rect x="535.723" y="588.667" fill="none" width="24.549" height="12.333"/>
+	<text transform="matrix(1 0 0 1 535.7227 595.0566)" fill="#FFFFFF" font-family="'Helvetica-Bold'" font-size="9">1/8</text>
+</g>
+<line fill="none" stroke="#FFFFFF" x1="451.32" y1="124.198" x2="461.818" y2="109.775"/>
+<g>
+	<rect x="114.389" y="116.987" fill="none" width="65.551" height="24.225"/>
+	<text transform="matrix(1 0 0 1 114.3892 127.6367)" fill="#FFFFFF" font-family="'ArialMT'" font-size="15">#COS</text>
+</g>
+<g>
+	<rect x="266.153" y="365.379" fill="none" width="36.68" height="18.495"/>
+	<text transform="matrix(1 0 0 1 266.1528 376.0293)" fill="#FFFFFF" font-family="'ArialMT'" font-size="15">#COS</text>
+</g>
+<g>
+	<rect x="607.064" y="482.489" fill="none" width="135.769" height="19.741"/>
+	<text transform="matrix(1 0 0 1 607.0645 493.1387)" fill="#FFFFFF" font-family="'ArialMT'" font-size="15">#COS : </text>
+	<text transform="matrix(1 0 0 1 650.4141 493.1387)" fill="#FFFFFF" font-family="'ArialMT'" font-size="9">pt de vue, arguments</text>
+</g>
+<g>
+	<rect x="599.271" y="291.715" fill="none" width="40.551" height="12.113"/>
+	<text transform="matrix(1 0 0 1 599.2715 302.3652)" fill="#FFFFFF" font-family="'ArialMT'" font-size="15">#COS</text>
+</g>
+<g>
+	<rect x="116.616" y="72.379" fill="none" width="45.279" height="27.464"/>
+	<text transform="matrix(1 0 0 1 116.6162 80.8984)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">#-</text>
+</g>
+<ellipse onclick="ecriTweet('#GOBCprat #ANTI #INDIV #-');" transform="matrix(0.6272 -0.7789 0.7789 0.6272 -162.2372 134.1208)" opacity="0.8" fill="#EFF0F4" enable-background="new    " cx="58.979" cy="236.527" rx="12.99" ry="13.323"/>
+<g>
+	<rect x="54.003" y="231.599" fill="none" width="45.279" height="27.464"/>
+	<text transform="matrix(1 0 0 1 54.0034 240.1191)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">#-</text>
+</g>
+<ellipse onclick="ecriTweet('#GOBCprat #ANTI #TMPS #-');" transform="matrix(0.6272 -0.7789 0.7789 0.6272 -196.1606 243.0132)" opacity="0.8" fill="#EFF0F4" enable-background="new    " cx="155.758" cy="326.405" rx="12.991" ry="13.324"/>
+<g>
+	<rect x="150.787" y="321.475" fill="none" width="45.279" height="27.465"/>
+	<text transform="matrix(1 0 0 1 150.7871 329.9941)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">#-</text>
+</g>
+<g>
+	<rect x="69.643" y="108.873" fill="none" width="45.279" height="27.464"/>
+	<text transform="matrix(1 0 0 1 69.6431 117.3926)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">#--</text>
+</g>
+<ellipse onclick="ecriTweet('#GOBCprat #PRO #TMPS #++');" transform="matrix(0.6272 -0.7789 0.7789 0.6272 171.4721 532.0934)" opacity="0.8" fill="#EFF0F4" enable-background="new    " cx="641.546" cy="86.932" rx="12.991" ry="13.324"/>
+<g>
+	<rect x="633.123" y="81.615" fill="none" width="22.64" height="13.732"/>
+	<text transform="matrix(1 0 0 1 633.123 90.1348)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">#++</text>
+</g>
+<ellipse onclick="ecriTweet('#GOBCprat #ANTI #INDIV #--');" transform="matrix(0.6272 -0.7789 0.7789 0.6272 -133.9378 118.9698)" opacity="0.8" fill="#EFF0F4" enable-background="new    " cx="57.305" cy="199.394" rx="12.991" ry="13.324"/>
+<g>
+	<rect x="49.895" y="194.089" fill="none" width="45.279" height="27.464"/>
+	<text transform="matrix(1 0 0 1 49.895 202.6094)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">#--</text>
+</g>
+<ellipse onclick="ecriTweet('#GOBCprat #ANTI #TMPS #--');" transform="matrix(0.6272 -0.7789 0.7789 0.6272 -189.142 214.555)" opacity="0.8" fill="#EFF0F4" enable-background="new    " cx="129.547" cy="304.85" rx="12.991" ry="13.324"/>
+<g>
+	<rect x="122.133" y="299.54" fill="none" width="45.279" height="27.464"/>
+	<text transform="matrix(1 0 0 1 122.1333 308.0586)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">#--</text>
+</g>
+<ellipse onclick="ecriTweet('#GOBCprat #DEMI #COS #=-');" transform="matrix(0.6272 -0.7789 0.7789 0.6272 -232.9366 347.0676)" opacity="0.8" fill="#EFF0F4" enable-background="new    " cx="246.071" cy="416.854" rx="12.99" ry="13.323"/>
+<g>
+	<rect x="236.1" y="410.919" fill="none" width="45.279" height="27.465"/>
+	<text transform="matrix(1 0 0 1 236.0996 419.4395)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">#=-</text>
+</g>
+<ellipse onclick="ecriTweet('#GOBCprat #DEMI #COS #=+');" transform="matrix(0.6272 -0.7789 0.7789 0.6272 -226.1123 379.157)" opacity="0.8" fill="#EFF0F4" enable-background="new    " cx="282.998" cy="425.768" rx="12.991" ry="13.324"/>
+<g>
+	<rect x="273.026" y="419.831" fill="none" width="45.279" height="27.465"/>
+	<text transform="matrix(1 0 0 1 273.0264 428.3516)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">#=+</text>
+</g>
+<ellipse onclick="ecriTweet('#GOBCprat #DEMI #COS #==');" transform="matrix(0.6272 -0.7789 0.7789 0.6272 -225.9182 318.6206)" opacity="0.8" fill="#EFF0F4" enable-background="new    " cx="219.863" cy="395.298" rx="12.991" ry="13.324"/>
+<g>
+	<rect x="209.446" y="389.984" fill="none" width="23.605" height="13.729"/>
+	<text transform="matrix(1 0 0 1 209.4458 398.5039)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">#==</text>
+</g>
+<ellipse onclick="ecriTweet('#GOBCprat #DEMI #INDIV #=-');" transform="matrix(0.6272 -0.7789 0.7789 0.6272 -260.8233 457.6744)" opacity="0.8" fill="#EFF0F4" enable-background="new    " cx="347.659" cy="501.284" rx="12.991" ry="13.323"/>
+<g>
+	<rect x="337.689" y="495.345" fill="none" width="45.278" height="27.465"/>
+	<text transform="matrix(1 0 0 1 337.689 503.8652)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">#=-</text>
+</g>
+<ellipse onclick="ecriTweet('#GOBCprat #DEMI #INDIV #=+');" transform="matrix(0.6272 -0.7789 0.7789 0.6272 -227.633 485.1423)" opacity="0.8" fill="#EFF0F4" enable-background="new    " cx="392.946" cy="480.349" rx="12.991" ry="13.323"/>
+<g>
+	<rect x="382.968" y="474.408" fill="none" width="45.28" height="27.465"/>
+	<text transform="matrix(1 0 0 1 382.9683 482.9277)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">#=+</text>
+</g>
+<ellipse onclick="ecriTweet('#GOBCprat #DEMI #INDIV #==');" transform="matrix(0.6272 -0.7789 0.7789 0.6272 -264.5033 416.52)" opacity="0.8" fill="#EFF0F4" enable-background="new    " cx="302.842" cy="484.558" rx="12.992" ry="13.324"/>
+<g>
+	<rect x="292.422" y="479.24" fill="none" width="23.605" height="13.729"/>
+	<text transform="matrix(1 0 0 1 292.4219 487.7598)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">#==</text>
+</g>
+<ellipse onclick="ecriTweet('#GOBCprat #DEMI #TMPS #=-');" transform="matrix(0.6272 -0.7789 0.7789 0.6272 -149.1678 550.4086)" opacity="0.8" fill="#EFF0F4" enable-background="new    " cx="500.358" cy="431.021" rx="12.991" ry="13.323"/>
+<g>
+	<rect x="490.39" y="425.076" fill="none" width="45.279" height="27.465"/>
+	<text transform="matrix(1 0 0 1 490.3906 433.5957)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">#=-</text>
+</g>
+<ellipse onclick="ecriTweet('#GOBCprat #DEMI #TMPS #=+');" transform="matrix(0.6272 -0.7789 0.7789 0.6272 -114.6209 557.4322)" opacity="0.8" fill="#EFF0F4" enable-background="new    " cx="524.981" cy="398.449" rx="12.99" ry="13.324"/>
+<g>
+	<rect x="514.998" y="392.508" fill="none" width="45.279" height="27.465"/>
+	<text transform="matrix(1 0 0 1 514.998 401.0273)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">#=+</text>
+</g>
+<ellipse onclick="ecriTweet('#GOBCprat #DEMI #TMPS #==');" transform="matrix(0.6272 -0.7789 0.7789 0.6272 -165.4789 516.317)" opacity="0.8" fill="#EFF0F4" enable-background="new    " cx="456.591" cy="431.013" rx="12.991" ry="13.324"/>
+<g>
+	<rect x="446.158" y="425.698" fill="none" width="23.604" height="13.729"/>
+	<text transform="matrix(1 0 0 1 446.1582 434.2188)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">#==</text>
+</g>
+<ellipse onclick="ecriTweet('#GOBCprat #PRO #TMPS #+');" transform="matrix(0.6272 -0.7789 0.7789 0.6272 175.0253 567.7902)" opacity="0.8" fill="#EFF0F4" enable-background="new    " cx="680.611" cy="101.068" rx="12.991" ry="13.324"/>
+<g>
+	<rect x="672.188" y="95.75" fill="none" width="22.641" height="13.732"/>
+	<text transform="matrix(1 0 0 1 672.1875 104.2695)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">#+</text>
+</g>
+<ellipse onclick="ecriTweet('#GOBCprat #PRO #INDIV #++');" transform="matrix(0.6272 -0.7789 0.7789 0.6272 109.4269 626.8459)" opacity="0.8" fill="#EFF0F4" enable-background="new    " cx="709.49" cy="199.12" rx="12.992" ry="13.325"/>
+<g>
+	<rect x="701.068" y="193.799" fill="none" width="22.64" height="13.732"/>
+	<text transform="matrix(1 0 0 1 701.0684 202.3184)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">#++</text>
+</g>
+<ellipse onclick="ecriTweet('#GOBCprat #PRO #COS #++');" transform="matrix(0.6272 -0.7789 0.7789 0.6272 25.9178 627.0222)" opacity="0.8" fill="#EFF0F4" enable-background="new    " cx="667.929" cy="286.438" rx="12.991" ry="13.325"/>
+<g>
+	<rect x="659.511" y="281.117" fill="none" width="22.641" height="13.732"/>
+	<text transform="matrix(1 0 0 1 659.5107 289.6367)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">#++</text>
+</g>
+<ellipse onclick="ecriTweet('#GOBCprat #PRO #INDIV #+');" transform="matrix(0.6272 -0.7789 0.7789 0.6272 81.4517 639.7413)" opacity="0.8" fill="#EFF0F4" enable-background="new    " cx="708.972" cy="234.79" rx="12.992" ry="13.325"/>
+<g>
+	<rect x="700.552" y="229.468" fill="none" width="22.641" height="13.732"/>
+	<text transform="matrix(1 0 0 1 700.5518 237.9883)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">#+</text>
+</g>
+<ellipse onclick="ecriTweet('#GOBCprat #PRO #COS #+');" transform="matrix(0.6272 -0.7789 0.7789 0.6272 -4.6231 633.3485)" opacity="0.8" fill="#EFF0F4" enable-background="new    " cx="659.267" cy="321.503" rx="12.991" ry="13.323"/>
+<g>
+	<rect x="650.859" y="316.176" fill="none" width="22.64" height="13.732"/>
+	<text transform="matrix(1 0 0 1 650.8594 324.6953)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">#+</text>
+</g>
+<line fill="none" stroke="#FFFFFF" x1="295.666" y1="196.48" x2="315.203" y2="190.962"/>
+<line fill="none" stroke="#FFFFFF" x1="388.011" y1="280.469" x2="389.617" y2="303.419"/>
+<line fill="none" stroke="#FFFFFF" x1="490.39" y1="216.864" x2="517.395" y2="205.303"/>
+<line fill="none" stroke="#FFFFFF" x1="328.027" y1="365.379" x2="318.306" y2="365.379"/>
+<line fill="none" stroke="#FFFFFF" x1="360.329" y1="402.843" x2="360.861" y2="422.193"/>
+<line fill="none" stroke="#FFFFFF" x1="424.675" y1="382.159" x2="436.053" y2="382.007"/>
+<line fill="none" stroke="#FFFFFF" x1="592.327" y1="244.055" x2="602.479" y2="268.292"/>
+<line fill="none" stroke="#FFFFFF" x1="616.684" y1="218.275" x2="628.78" y2="221.553"/>
+<line fill="none" stroke="#FFFFFF" x1="604.934" y1="158.937" x2="616.841" y2="155.559"/>
+<g>
+	<ellipse opacity="0.8" fill="#7830DA" enable-background="new    " cx="655.547" cy="568.505" rx="5.875" ry="5.6"/>
+	<ellipse opacity="0.8" fill="#8E69DA" enable-background="new    " cx="670.306" cy="568.505" rx="5.875" ry="5.6"/>
+	<ellipse opacity="0.8" fill="#C79CDA" enable-background="new    " cx="686.028" cy="568.505" rx="5.875" ry="5.6"/>
+	<ellipse opacity="0.8" fill="#75FFFF" enable-background="new    " cx="700.787" cy="568.505" rx="5.875" ry="5.6"/>
+	<ellipse opacity="0.8" fill="#3DCFFF" enable-background="new    " cx="715.568" cy="568.505" rx="5.875" ry="5.6"/>
+	<ellipse opacity="0.8" fill="#00CFFF" enable-background="new    " cx="730.327" cy="568.505" rx="5.875" ry="5.6"/>
+	<ellipse fill="#B0DEA8" cx="746.05" cy="568.505" rx="5.875" ry="5.6"/>
+	<ellipse fill="#87DE78" cx="760.809" cy="568.505" rx="5.875" ry="5.6"/>
+	<ellipse fill="#96DE33" cx="775.264" cy="568.505" rx="5.875" ry="5.6"/>
+	<ellipse opacity="0.8" fill="#FFCFE3" enable-background="new    " cx="632.28" cy="568.505" rx="5.875" ry="5.6"/>
+	<g>
+		<g>
+			<line fill="none" stroke="#FFFFFF" stroke-width="0.5" x1="626.405" y1="583.566" x2="782.048" y2="583.566"/>
+			<path fill="#FFFFFF" d="M785.065,583.566c-1.421,0.526-3.183,1.426-4.273,2.377l0.86-2.377l-0.86-2.377
+				C781.884,582.141,783.646,583.04,785.065,583.566z"/>
+		</g>
+	</g>
+	<rect x="621.668" y="588.334" fill="none" width="172.999" height="11.666"/>
+	<text transform="matrix(1 0 0 1 621.668 594.7236)" fill="#FFFFFF" font-family="'Helvetica-Bold'" font-size="9">Contre</text>
+	
+		<text transform="matrix(1 0 0 1 652.7529 594.7236)" fill="#FFFFFF" font-family="'Helvetica-Bold'" font-size="9" letter-spacing="2"> </text>
+	
+		<text transform="matrix(1 0 0 1 657.667 594.7236)" fill="#FFFFFF" font-family="'Helvetica-Bold'" font-size="9" letter-spacing="33"> </text>
+	<text transform="matrix(1 0 0 1 693.667 594.7236)" fill="#FFFFFF" font-family="'Helvetica-Bold'" font-size="9">                    </text>
+	
+		<text transform="matrix(1 0 0 1 731.8311 594.7236)" fill="#FFFFFF" font-family="'Helvetica-Bold'" font-size="9" letter-spacing="30"> </text>
+	<text transform="matrix(1 0 0 1 765.6729 594.7236)" fill="#FFFFFF" font-family="'Helvetica-Bold'" font-size="9">pour</text>
+</g>
+</svg>
